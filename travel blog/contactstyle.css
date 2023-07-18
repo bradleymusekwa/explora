@@ -1,0 +1,208 @@
+html {
+    background: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#img {
+    width: 3rem;
+    height: inherit;
+    position: static;
+}
+.field {
+    border: 0;
+}
+.legend {
+    text-align: right;
+}
+
+.container {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+
+.firstname {
+    background-color: #215d83;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+    border: 0;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.firstname::placeholder {
+    color: #ffffff;
+}
+.firstname:hover {
+    transform: scale(1.1);
+}
+.lastname {
+    background-color: #215d83;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+    border: 0;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.lastname::placeholder {
+    color: #ffffff;
+}
+
+.lastname:hover {
+    transform: scale(1.1);
+}
+
+.email {
+    background-color: #215d83;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+    border: 0;
+    border-radius: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.email::placeholder {
+    color: #ffffff;
+}
+
+.email:hover {
+    transform: scale(1.1);
+}
+
+ .selector {
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+ }
+
+ .status {
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: cursive;
+    border-radius: 1rem;
+    border: 0;
+    cursor: pointer;
+    background-color: #215d83;
+    color: #ffffff;
+    transition: 0.5s ease-in-out;
+ }
+
+ .status:hover {
+    transform: scale(1.1);
+ }
+
+ .radio {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+ }
+
+ button {
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid #215d83;
+    background-color: #215d83;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 12px 80px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .bu2 {
+    text-align: center;
+  }
+
+  button:hover {
+    letter-spacing: 3px;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+  #comments {
+    text-align: left;
+    width: 25rem;
+    height: 10rem;
+    border-radius: 1rem ;
+    margin-bottom: 2rem;
+    background: #215d83;
+    color: #ffffff;
+    border: 0;
+    transition: 0.3s ease-in-out;
+    cursor: text;
+    padding-left: 0.4rem;
+  }
+  #comments::placeholder {
+    color: #ffffff;
+    padding-left: 1rem;
+  }
+#comments:hover {
+    transform: scale(1.02);
+}
+  .comments {
+    text-align: center;
+  }
+
+  .checkbox {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .signup {
+    cursor: pointer;
+  }
+
+  .tc {
+    cursor: pointer;
+  }
+
+  #img2 {
+    width: 3rem;
+    height: inherit;
+  }
+  .call {
+    text-align: center;
+  }
+
+  #img3 {
+    width: 3rem;
+    height: inherit;
+  }
+
+  .email2 {
+    text-align: center;
+  }
+
+  #img4 {
+    width: 3rem;
+    height: inherit;
+  }
+
+  .address {
+    text-align: center
+  }
